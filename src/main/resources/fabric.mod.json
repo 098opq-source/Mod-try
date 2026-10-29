@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "worldrestart",
+  "version": "${version}",
+  "name": "World Restart",
+  "description": "Adds /restart: deletes the current world and creates a fresh one with the same settings but a new random seed.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.worldrestart.WorldRestartMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
